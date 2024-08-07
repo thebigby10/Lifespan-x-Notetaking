@@ -1,0 +1,9 @@
+[23:44:22 2024-08-07] FETCHING Version 2.37.0
+[23:44:22 2024-08-07] CREATING /home/thebigby01/.spicetify
+[23:44:22 2024-08-07] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.37.0/spicetify-2.37.0-linux-amd64.tar.gz
+[23:44:28 2024-08-07] EXTRACTING /home/thebigby01/.spicetify/spicetify.tar.gz
+[23:44:28 2024-08-07] SETTING EXECUTABLE PERMISSIONS TO /home/thebigby01/.spicetify/spicetify
+[23:44:28 2024-08-07] REMOVING /home/thebigby01/.spicetify/spicetify.tar.gz
+[23:44:28 2024-08-07] APPENDING /home/thebigby01/.spicetify to PATH in /home/thebigby01/.config/fish/config.fish
+[23:44:28 2024-08-07] spicetify v2.37.0 was installed successfully to /home/thebigby01/.spicetify
+[23:44:28 2024-08-07] Run 'spicetify --help' to get started

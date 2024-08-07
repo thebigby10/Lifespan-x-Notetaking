@@ -3,11 +3,6 @@ body {
     color: white;
 }
 
-.notetaking-div {
-    background-color: #3d4359;
-    height: 70vh;
-}
-
 .lifespan-div {
     background-color: #779082;
 }
@@ -21,21 +16,17 @@ body {
     align-items: center;
 }
 
-.textarea-div {
-    display: flex;
-    flex-direction: row;
-    /* align-items: stretch; */
-}
-
 textarea {
     margin: 1%;
     background-color: #3d4359;
     color: white;
     /* width: 48%; */
     font-size: 1.5em;
-    height: 54dvh;
+    height: 40dvh;
     flex-grow: 1;
+    width: 98%;
 }
+
 .lifespan-div-div {
     display: flex;
     flex-direction: row;
@@ -45,13 +36,40 @@ textarea {
 
 .eclipsed-div {
     background-color: #463f40;
-    padding: 0.5%;
+    padding: 0.3%;
     width: 0.1em;
     margin: 0.1%;
 }
 .left-div {
-    padding: 0.5%;
+    padding: 0.3%;
     background-color: #ce633f;
     width: 0.1em;
     margin: 0.1%;
+}
+
+.notetaking-div {
+    background-color: #3d4359;
+    padding-bottom: 1vh;
+}
+
+.notetaking-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.notetaking-heading > button {
+    border-radius: 5px;
+    background-color: #ce633f;
+    font-size: 2em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    margin: 0.2em;
+    margin-left: 1em;
+}
+
+.notes-div > button {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
 }
