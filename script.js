@@ -51,6 +51,7 @@ if (JSON.parse(localStorage.getItem("items")) != null) {
       document.querySelector(".notes-div").appendChild(item_button);
     }
   }
+  document.querySelector("textarea").value = items[0][2];
 } else {
   localStorage.setItem("items", JSON.stringify(items));
 }
