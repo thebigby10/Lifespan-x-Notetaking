@@ -9,6 +9,11 @@ The upper section is a simple quick note taking and the lower part shows If you 
 ![Logo](https://raw.githubusercontent.com/thebigby10/Lifespan-x-Notetaking/main/Lifespan-x-Notetaking.png)
 
 
+## Usage/Examples
+
+Single click to take note, double click to remove the note.
+
+
 ## Screenshot
 
 ![App Screenshot](https://raw.githubusercontent.com/thebigby10/Lifespan-x-Notetaking/main/image.png)
