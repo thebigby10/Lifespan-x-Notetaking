@@ -1,13 +1,16 @@
 
 # Lifespan-x-Notetaking
 
-A personal new tab webpage .
+A personal new tab webpage / browser extention.
 
 The upper section is a simple quick note taking and the lower part shows If you live 60 years how much week you've left.(Uses localStorage to store data)
 
 
 ![Logo](https://raw.githubusercontent.com/thebigby10/Lifespan-x-Notetaking/main/Lifespan-x-Notetaking.png)
 
+## Installation
+
+Enable developer mode and install the browser as Load unpacked.
 
 ## Usage/Examples
 
