@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LifeSpan x Note Taking",
+  "version": "1.0",
+  "description": "A personal new tab. The upper section is a simple quick note taking and the lower part shows If you live 60 years how much week you've left.(Uses localStorage to store data)",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
