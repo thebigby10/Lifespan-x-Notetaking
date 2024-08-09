@@ -134,4 +134,4 @@ setInterval(() => {
   timeleft_percentage = (time_left * 100) / (60 * 12 * 4);
   document.querySelector("#timeleft-span").innerHTML =
     `Your Lifespan in Weeks (${timeleft_percentage.toFixed(12)}% left)`;
-}, 100);
+}, 1);
