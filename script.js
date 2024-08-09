@@ -14,8 +14,6 @@ let time_left = 60 * 12 * 4 - eclipsed_time;
 let timeleft_percentage = (time_left * 100) / (60 * 12 * 4);
 console.log(timeleft_percentage);
 console.log(time_left);
-document.querySelector("#timeleft-span").innerHTML =
-  `Your Lifespan in Weeks (${Math.ceil(timeleft_percentage)}% left)`;
 
 //eclipesed time divs
 for (let i = 0; i < Math.ceil(eclipsed_time); i++) {
@@ -130,3 +128,10 @@ function searchItem(items, item_id) {
   }
   return -1;
 }
+setInterval(() => {
+  eclipsed_time = (new Date() - b_date) / (1000 * 86400 * 7);
+  time_left = 60 * 12 * 4 - eclipsed_time;
+  timeleft_percentage = (time_left * 100) / (60 * 12 * 4);
+  document.querySelector("#timeleft-span").innerHTML =
+    `Your Lifespan in Weeks (${timeleft_percentage.toFixed(12)}% left)`;
+}, 100);
