@@ -8,9 +8,17 @@ The upper section is a simple quick note taking and the lower part shows If you 
 
 ![Logo](https://raw.githubusercontent.com/thebigby10/Lifespan-x-Notetaking/main/Lifespan-x-Notetaking.png)
 
+## Live Demo
+
+https://thebigby10.github.io/Lifespan-x-Notetaking/
+
 ## Installation
 
-Enable developer mode and install the browser as Load unpacked.
+Enable developer mode and install the browser as Load unpacked
+
+or
+
+use it as a webpage
 
 ## Usage/Examples
 
