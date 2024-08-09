@@ -31,6 +31,11 @@ Single click to take note, double click to remove the note.
 
 
 ## Roadmap
+
+- <del>realtime update the week left percentage </del>
+
+- [TAB] to cycle through notes
+
 - Update the button color if selected.
 
 - Implement a server and DB to host.
